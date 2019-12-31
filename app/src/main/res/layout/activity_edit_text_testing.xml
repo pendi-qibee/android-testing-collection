@@ -10,11 +10,78 @@
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="14sp"
         android:textAlignment="center"
         android:text="Tes Edit Text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLabelMenu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:text="Menu 1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <EditText
+        android:id="@+id/etMenu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:hint="Menu 1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLabelMenu1" />
+
+    <TextView
+        android:id="@+id/tvLabelMenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:text="Menu 2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMenu1" />
+
+    <EditText
+        android:id="@+id/etMenu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:hint="Menu 1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLabelMenu2" />
+
+    <Button
+        android:id="@+id/btnPesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:padding="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Pesan Sekarang"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMenu2"/>
+
+    <TextView
+        android:id="@+id/tvResponPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:text="Pesanan kamu sudah dicatat"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPesan" />
 </androidx.constraintlayout.widget.ConstraintLayout>
