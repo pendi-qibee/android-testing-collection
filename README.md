@@ -7,7 +7,8 @@ Repo ini berisi Sample project untuk UI Testing menggunakan Espresso
 * [Kotlin](https://kotlinlang.org/) 
 * [Espresso]
 
-## Jenis UI yang dites (belum diimplementasikan)
-* Edit Text
-* Time Picker
-* Date Picker
+## Jenis UI yang dites
+* [x] Edit Text
+* [x] Klik button
+* [ ] Time Picker
+* [ ] Date Picker
