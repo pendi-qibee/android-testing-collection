@@ -8,14 +8,52 @@
     tools:context=".TimePickerTestingActivity">
 
     <TextView
-        android:id="@+id/tvTitle"
+        android:id="@+id/tvTitleTimePicker"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:text="Tes Time Picker" />
+
+    <ImageButton
+        android:id="@+id/btnSetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_alarm_black_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleTimePicker" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSetTime"
+        app:layout_constraintStart_toEndOf="@+id/btnSetTime"
+        app:layout_constraintTop_toTopOf="@+id/btnSetTime"
+        app:layout_constraintVertical_bias="0.625"
+        tools:text="14:30" />
+
+    <ImageButton
+        android:id="@+id/btnSetDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_event_available_black_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSetTime" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSetDate"
+        app:layout_constraintStart_toEndOf="@+id/btnSetDate"
+        app:layout_constraintTop_toTopOf="@+id/btnSetDate"
+        app:layout_constraintVertical_bias="0.541"
+        tools:text="12 Januari 2020" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
