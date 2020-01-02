@@ -22,7 +22,7 @@ class EditTextTestFromScracth {
     var mActivityTestRule = ActivityTestRule(MainActivity::class.java)
 
     @Test
-    fun editTextTestFromRecording() {
+    fun editTextTest() {
 
         //klik button "Tes Edit Text"
         onView(withId(R.id.tvEditTextTesting)).perform(click())
