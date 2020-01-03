@@ -11,5 +11,5 @@ Repo ini berisi Sample project untuk UI Testing menggunakan Espresso
 ## Jenis UI yang dites
 * [x] Edit Text
 * [x] Klik button
-* [ ] Time Picker
-* [ ] Date Picker
+* [x] Time Picker
+* [x] Date Picker
