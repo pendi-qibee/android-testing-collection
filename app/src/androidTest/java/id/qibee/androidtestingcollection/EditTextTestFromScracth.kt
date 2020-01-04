@@ -25,7 +25,7 @@ class EditTextTestFromScracth {
     fun editTextTest() {
 
         //klik button "Tes Edit Text"
-        onView(withId(R.id.tvEditTextTesting)).perform(click())
+        onView(withId(R.id.btnEditTextTesting)).perform(click())
 
         //cek apakah TextView Menu 1 sudah ditampilkan
         onView(withId(R.id.tvLabelMenu1)).check(matches(isDisplayed()))

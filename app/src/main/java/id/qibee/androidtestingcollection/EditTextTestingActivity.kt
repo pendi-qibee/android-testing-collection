@@ -1,9 +1,8 @@
 package id.qibee.androidtestingcollection
 
-import android.opengl.Visibility
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_edit_text_testing.*
 
 class EditTextTestingActivity : AppCompatActivity() {

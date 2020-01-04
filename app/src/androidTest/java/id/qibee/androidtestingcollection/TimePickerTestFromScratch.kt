@@ -27,7 +27,7 @@ class TimePickerTestFromScratch {
     @Test
     fun timePickerTest() {
 
-        onView(withId(R.id.tvTimePickerTesting)).perform(click())
+        onView(withId(R.id.btnTimePickerTesting)).perform(click())
 
         onView(withId(R.id.btnSetTime)).check(matches(isDisplayed()))
         onView(withId(R.id.btnSetTime)).perform(click())

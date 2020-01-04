@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/tvEditTextTesting"
+        android:id="@+id/btnEditTextTesting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="8dp"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/tvTimePickerTesting"
+        android:id="@+id/btnTimePickerTesting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -26,6 +26,6 @@
         android:background="@color/colorPrimary"
         android:text="Tes Time Picker"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvEditTextTesting" />
+        app:layout_constraintTop_toBottomOf="@+id/btnEditTextTesting" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

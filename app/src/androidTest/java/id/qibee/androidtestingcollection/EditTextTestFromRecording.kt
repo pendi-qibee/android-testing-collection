@@ -33,7 +33,7 @@ class EditTextTestFromRecording {
 
         val appCompatButton = onView(
             allOf(
-                withId(R.id.tvEditTextTesting), withText("Tes Edit text"),
+                withId(R.id.btnEditTextTesting), withText("Tes Edit text"),
                 childAtPosition(
                     childAtPosition(
                         withId(android.R.id.content),

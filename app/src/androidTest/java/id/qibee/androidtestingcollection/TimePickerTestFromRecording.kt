@@ -32,7 +32,7 @@ class TimePickerTestFromRecording {
     fun timePickerTestFromRecording() {
         val appCompatButton = onView(
             allOf(
-                withId(R.id.tvTimePickerTesting), withText("Tes Time Picker"),
+                withId(R.id.btnTimePickerTesting), withText("Tes Time Picker"),
                 childAtPosition(
                     childAtPosition(
                         withId(android.R.id.content),
