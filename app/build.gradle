@@ -21,6 +21,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    if (project.hasProperty('devBuild')) {
+        aaptOptions.cruncherEnabled = false
+        splits.abi.enable = false
+        splits.density.enable = false
+    }
 }
 
 dependencies {
