@@ -18,5 +18,9 @@ class MainActivity : AppCompatActivity() {
         btnTimePickerTesting.setOnClickListener {
             startActivity(Intent(this, TimePickerTestingActivity::class.java))
         }
+
+        btnRecyclerViewTesting.setOnClickListener {
+            startActivity(Intent(this, RecyclerViewActivity::class.java))
+        }
     }
 }
