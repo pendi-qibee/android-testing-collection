@@ -3,6 +3,7 @@ package id.qibee.androidtestingcollection
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import id.qibee.androidtestingcollection.model.Contact
 import kotlinx.android.synthetic.main.activity_recycler_view.*
@@ -22,6 +23,12 @@ class RecyclerViewActivity : AppCompatActivity() {
             layoutManager = rvLayoutManager
             adapter = mAdapter
             setHasFixedSize(true)
+            addItemDecoration(
+                DividerItemDecoration(
+                    context,
+                    LinearLayoutManager.HORIZONTAL
+                )
+            )
         }
     }
 
