@@ -26,7 +26,7 @@ class RecyclerViewActivity : AppCompatActivity() {
             addItemDecoration(
                 DividerItemDecoration(
                     context,
-                    LinearLayoutManager.HORIZONTAL
+                    LinearLayoutManager.VERTICAL
                 )
             )
         }
