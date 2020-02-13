@@ -10,6 +10,12 @@ object ContactData {
             Contact(3, "Blog", "qibandroid.blogspot.com"),
             Contact(4, "Twitter", "@pendimadyana"),
             Contact(5, "Telegram", "@PendiMadyana"),
-            Contact(5, "Channel Telegram", "@AndroidLab")
+            Contact(6, "Channel Telegram", "@AndroidLab"),
+            Contact(7, "Facebook", "Pendi Madyana"),
+            Contact(8, "Alamat", "Semarang Indonesia"),
+            Contact(9, "Komunitas", "SANDEC"),
+            Contact(10, "IDE", "Android Studio"),
+            Contact(11, "Programming Language", "Kotlin"),
+            Contact(12, "Remote Work", "Kodingwork")
         )
 }
