@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Android Testing Collection</string>
+    <string-array name="makanan_array">
+        <item>Sate</item>
+        <item>Bakso</item>
+        <item>Tahu Gimbal</item>
+        <item>Lumpia</item>
+    </string-array>
 </resources>

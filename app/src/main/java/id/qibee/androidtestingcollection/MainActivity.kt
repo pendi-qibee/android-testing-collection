@@ -22,5 +22,9 @@ class MainActivity : AppCompatActivity() {
         btnRecyclerViewTesting.setOnClickListener {
             startActivity(Intent(this, RecyclerViewActivity::class.java))
         }
+
+        btnSpinnerTesting.setOnClickListener {
+            startActivity(Intent(this, SpinnerActivity::class.java))
+        }
     }
 }
