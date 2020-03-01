@@ -14,6 +14,6 @@ Repo ini berisi Sample project untuk UI Testing menggunakan Espresso
 * [x] Klik button
 * [x] Time Picker
 * [x] Date Picker
-* [ ] Spinner
-* [ ] RecyclerView
+* [x] Spinner
+* [x] RecyclerView
 * [ ] Tablayout
